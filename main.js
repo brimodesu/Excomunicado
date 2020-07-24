@@ -7,7 +7,7 @@ function printText(char) {
 }
 
 async function doIt(text) {
-  for (let index = 0; index < 200; index++) {
+  for (let index = 0; index < 500; index++) {
     for (let index = 0; index < text.length; index++) {
       await printText(text.charAt(index));
         
